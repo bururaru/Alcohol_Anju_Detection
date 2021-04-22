@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-------------------------------------- HEAD START -------------------------------------->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>酒조상궁</title>
+  <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css?ver=7">
+</head>
+<!--------------------------------------- HEAD END --------------------------------------->
+<!-------------------------------------- BODY START -------------------------------------->
+<body>
+  <section id="main_contents">
+    <div class="wrapper">
+      <div class="title">
+        <h3 class="main_title">주조상궁</h3>
+        <h3 class="sub_title">안주 궁합 점수 측정기</h3>
+      </div>
+      <div class="intro">
+        <h1>♥궁합 평가와 점수는? 두근두근♥</h1>
+        <div class="type">
+          <ul class="type_list">
+              <li>소주와 회는 몇점일까요</li>
+              <li>맥주와 회..이거 맞아?</li>
+              <li>막걸리와 전은 몇점일까요?</li>
+              <li>최고 점수 조합에 도전하세요</li>
+              <li>소주와 회는 몇점일까요</li>
+          </ul>
+      </div>
+      </div>
+      <!--Main layout-->
+      <main>
+        <div class="container">
+          <hr class="border_line" size="5px" color="black" noshade="">
+            <!-------------------------------------- FILE UPLOAD -------------------------------------->
+            <form action="http://localhost:5000/fileUpload" method="POST" enctype="multipart/form-data">
+              <div class="filebox" style="display:contents">
+                <div style="float:left">
+                  <label for="ex_file">업로드</label>
+                  <input type="file" name="file" id="ex_file" />
+                </div>
+                <div style="float:right">
+                  <label for="ex_submit">등록</label>
+                  <input type="submit" id="ex_submit" />
+                </div>
+              </div>
+            </form>
+          <br><br>
+          <hr class="border_line" size="5px" color="black" noshade="">
+
+           <!-------------------------------------- FILE UPLOAD -------------------------------------->
+           <!-------------------------------------- RESULTs AREA-------------------------------------->
+            {% if result_img %}
+            <img src="{{url_for('static', filename='result_img/'+result_img)}}" class="img-fluid z-depth-1-half" alt="">
+            {% endif %}
+            <br>
+            <h3 class="text-center mt-3 text-success">{% if result_img %} * 이미지 이름 : {{ result_img }} {% endif %}</h3>
+            <br>
+            <h3 class="text-center mt-3 text-success">{% if return_msg %} * 처리결과 : {{ return_msg }} {% endif %}</h3>
+            <br>
+            <h3 class="text-center mt-3 text-success">{% if labels %} * Lable : {{ labels }} {% endif %}</h3>
+            <br>
+            <h3 class="text-center mt-3 text-success">{% if score %} * Score : {{ score }} {% endif %}</h3>
+            <br>
+            <h3 class="text-center mt-3 text-success">{% if desc %} * desc : {{ desc }} {% endif %}</h3>
+            <br>
+          <!-------------------------------------- RESULTs AREA-------------------------------------->
+        </div>
+      </main>
+    </div>
+    <!--Main layout-->
+  </section>
+</body>
+<!--------------------------------------- BODY END --------------------------------------->
+</html>
