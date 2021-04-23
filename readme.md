@@ -2,9 +2,11 @@
 
 
 
-- base: YOLOv5
+- Base: YOLOv5
 
-- dataset : 자체 수집 술, 안주 data
+- Tool: PyCharm, Flask, PyTorch, 
+
+- Datasets : 이미지 크롤링 활용 수집 술, 안주 image data
 
 - 인식 가능 종류
 
