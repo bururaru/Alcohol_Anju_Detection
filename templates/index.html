@@ -42,6 +42,7 @@
         $( document ).ready(function() {
          console.log( "ready!" );
          countUp({{score}});
+         makegraph();
          });
     </script>
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
@@ -96,6 +97,13 @@
             </form>
           <br><br>
           <hr class="border_line" size="5px" color="black" noshade="">
+          {% if score %}
+          <div id="label-container">
+            <div id="anju" class="d-flex" style="display:flex !important"></div>
+            <div id="alcohol" class="d-flex" style="display:flex !important"></div>
+          </div>
+          {% endif %}
+
 
            <!-------------------------------------- FILE UPLOAD -------------------------------------->
            <!-------------------------------------- RESULTs AREA-------------------------------------->
@@ -119,6 +127,10 @@
             {% if score %}<div class="count">0</div>{% endif %}
             <br>
             <h3 class="text-center mt-3 text-success">{% if desc %} * desc : {{ desc }} {% endif %}</h3>
+            <div class="text-typing">
+                  <p>{% if desc %} * desc : {{ desc }} {% endif %}</p>
+            </div>
+
             <br>
           <!-------------------------------------- RESULTs AREA-------------------------------------->
         </div>
@@ -155,13 +167,6 @@
 			console.log("{{alcohol}}", {{alcohol_score}})
         }
 </script>
-<script>
-  $(function(){
-  $('.count').click( function() {
-  console.log('Success3!')
-  makegraph();
-  } );
-  });
-</script>
+
 <!--------------------------------------- BODY END --------------------------------------->
 </html>
