@@ -7,17 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>酒조상궁</title>
   <link rel="stylesheet" type="text/css" href="static/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="static/css/style.css?a">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script>
+  $(function(){
+  console.log('success!')
+  });
+  </script>
 </head>
 <!--------------------------------------- HEAD END --------------------------------------->
 <!-------------------------------------- BODY START -------------------------------------->
-<body>
+<body style="background-color: #FAF1BE !important;">
   <section id="main_contents">
     <div class="wrapper">
       <div class="title">
         <h3 class="main_title">주조상궁</h3>
         <h3 class="sub_title">안주 궁합 점수 측정기</h3>
       </div>
+	  <div class="count">테스트버튼</div>
       <div class="intro">
         <h1>♥궁합 평가와 점수는? 두근두근♥</h1>
         <div class="type">
@@ -50,6 +58,11 @@
           <br><br>
           <hr class="border_line" size="5px" color="black" noshade="">
 
+          <div id="label-container">
+            <div id="anju" class="d-flex" style="display:flex !important"></div>
+            <div id="alcohol" class="d-flex" style="display:flex !important"></div>
+          </div>
+
            <!-------------------------------------- FILE UPLOAD -------------------------------------->
            <!-------------------------------------- RESULTs AREA-------------------------------------->
             {% if result_img %}
@@ -73,5 +86,35 @@
     <!--Main layout-->
   </section>
 </body>
+<script>
+  $(function(){
+  console.log('success2!')
+  });
+</script>
+<script>
+    labelContainer = document.getElementById("label-container");
+
+    function makegraph() {
+			var barWidth = Math.round({{anju_score}}.toFixed(2) * 100) + "%";
+			var label = "<div class='food-label d-flex align-items-center'>" + "{{anju}}" + "</div>"
+			var bar = "<div class='bar-container position-relative container'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round({{anju_score}}.toFixed(2) * 100) + "%</span></div></div>"
+			document.getElementById("anju").innerHTML = label + bar;
+			console.log("{{anju}}", {{anju_score}})
+			
+			var barWidth2 = Math.round({{alcohol_score}}.toFixed(2) * 100) + "%";
+			var label2 = "<div class='food-label d-flex align-items-center'>" + "{{alcohol}}" + "</div>"
+			var bar2 = "<div class='bar-container position-relative container'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth2 + "'><span class='d-block percent-text'>" + Math.round({{alcohol_score}}.toFixed(2) * 100) + "%</span></div></div>"
+			document.getElementById("alcohol").innerHTML = label2 + bar2;
+			console.log("{{alcohol}}", {{alcohol_score}})
+        }
+</script>
+<script>
+  $(function(){
+  $('.count').click( function() {
+  console.log('Success3!')
+  makegraph();
+  } );
+  });
+</script>
 <!--------------------------------------- BODY END --------------------------------------->
 </html>

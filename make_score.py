@@ -22,28 +22,28 @@ def scoring(labels):
 
         sortlabels = {"anju": None, "alcohol":None}
 
-        for i in range(len(result_dict)):
-            key_list = list(result_dict.keys())
-            key_list.reverse()
+        key_list = list(result_dict.keys())
+        key_list.reverse()
 
+        for i in range(len(result_dict)):
             if sortlabels["anju"] == None and key_list[i] in anzulist:
                 sortlabels["anju"] = key_list[i]
             if sortlabels["alcohol"] == None and key_list[i] in alcohollist:
                 sortlabels["alcohol"] = key_list[i]
+        anju = sortlabels["anju"]
+        anju_score = result_dict[anju]
+        alcohol = sortlabels["alcohol"]
+        alcohol_score = result_dict[alcohol]
 
         infolist = pd.read_csv('combination.csv')
 
         if None in list(sortlabels.values()):
-            # score = "술이나 안주가 부족해요"
-            # desc, anju, alcohol = None, None, None
             infolist = pd.read_csv('combination.csv')
 
             uncomplete_result = infolist[(infolist['anju']==sortlabels["anju"]) | (infolist['alcohol']==sortlabels["alcohol"])]
             uncomplete_result = uncomplete_result.sort_values(by=['score'], ascending=False)
             result = uncomplete_result.iloc[0, :]
 
-            anju = sortlabels["anju"]
-            alcohol = sortlabels["alcohol"]
             score = None
             desc = str(result[0] if sortlabels["anju"] == None else result[1]) + "과 같이 먹어보는건 어떨까요?"
 
@@ -53,8 +53,6 @@ def scoring(labels):
             result = list(result_ex.iloc[0, :])
             supplement = None
 
-            anju = result[0]
-            alcohol = result[1]
             score = result[3]
             desc = result[2]
 
@@ -65,4 +63,4 @@ def scoring(labels):
         alcohol = None
         score = None
         desc = None
-    return score, desc, anju, alcohol
+    return score, desc, anju, alcohol, anju_score, alcohol_score

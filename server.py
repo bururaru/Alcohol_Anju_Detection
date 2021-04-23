@@ -32,12 +32,12 @@ def upload_file():
         print('[5]return_msg :', return_msg)
 
         labels = detect_anju.detect(file_name)
-        score, desc, anju, alcohol = make_score.scoring(labels)
+        score, desc, anju, alcohol, anju_score, alcohol_score = make_score.scoring(labels)
 
         return_msg = '분석완료 !'
         print('[6]return_msg :', return_msg)
 
-        return render_template('index.html', return_msg=return_msg, labels=labels, result_img=file_name, score=score, desc=desc, anju=anju, alcohol=alcohol)
+        return render_template('index.html', return_msg=return_msg, labels=labels, result_img=file_name, score=score, desc=desc, anju=anju, alcohol=alcohol, anju_score=anju_score, alcohol_score=alcohol_score)
 
 
 @app.route("/", methods=['GET', 'POST'])
