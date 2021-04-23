@@ -1,0 +1,421 @@
+anju,alcohol,explanation,score
+bokkeum,soju,역시 맵싹한 볶음에 소주만큼 최고의 조합은 없죠!,90
+bokkeum,fruit_soju,볶음음식에 과일소주를 드시는 건 음료수 대용인가요?,40
+bokkeum,can_beer,간단하게 혼술 조합으론 맥주에 맵싹한 볶음만한게 없죠.,76
+bokkeum,bottle_beer,간단하게 혼술 조합으론 맥주에 맵싹한 볶음만한게 없죠.,78
+bokkeum,live_beer,맵싹한 볶음엔 차라리 생맥보단..캔맥주나 병맥주가 나아요.,66
+bokkeum,makgeolli,막걸리에 맵싹한 볶음류? 힘을 숨긴 진짜 주당이시군요!,82
+bokkeum,kettle_makgeolli,막걸리는 또 주전자 막걸리죠. 이 조합에 맵싹한 볶음은 근본 그 자체,90
+bokkeum,bottle_wine,와인하고 맵싹한 볶음이여?....다음날 머리 깨질 각오는 되신건지..,40
+bokkeum,glass_red_wine,와인하고 맵싹한 볶음이여?....다음날 머리 깨질 각오는 되신건지..,40
+bokkeum,glass_white_wine,화이트와인과 맵싹한 볶음? ...오히려 좋아.,60
+bokkeum,sake_pack,사케하고 맵싹한 볶음? 소주하고 볶음이 가성비가 좋긴할걸여..조합은 Not Bad ,70
+bokkeum,liquor,양주하고 맵싹한 볶음 비추요. 양주가 아깝습니다.,32
+bossam,soju,삶은 고기는 그냥 먹어도 맛있지만 역시 소주를 곁들인다면 금상첨화!,80
+bossam,fruit_soju,삶은 고기에 과일 소주를 드시는 당신 혹시 미성년자는 아니시죠?,45
+bossam,can_beer,무난하네요! 먹다가 술생각이 나서 꺼내온 건가요?,75
+bossam,bottle_beer,시원한 맥주에 삶은 고기 한 점은 반주하기에 딱이죠!,50
+bossam,live_beer,고기집에서 생맥주파는거 보신분 혹시 있으신가요? 어이가 아리마셍,20
+bossam,makgeolli,조선시대부터 이어져온 조합입니다. 뼛속까지 대한민국인.,90
+bossam,kettle_makgeolli,조선시대부터 이어져온 조합입니다. 뼛속까지 대한민국인.,90
+bossam,bottle_wine,동서양의 만남.. 하이브리드 술안주 궁합,88
+bossam,glass_red_wine,동서양의 만남.. 하이브리드 술안주 궁합,88
+bossam,glass_white_wine,동서양의 만남.. 하이브리드 술안주 궁합,88
+bossam,sake_pack,이자카야에서 보쌈을 팔지 않는건 다 이유가 있는겁니다...,30
+bossam,liquor,"보쌈에 어울리는 씁쓸한 양주의 향을 즐기는 당신, 챔피언입니다.",60
+canape,soju,"소주에 치즈요리라니, 창의력이 풍부하시군요...? 보다 달달한 술이 어울려요!",46
+canape,fruit_soju,와인을 대체할 용도면 나쁘지 않아요.,60
+canape,can_beer,시원한 맥주와 가벼운 치즈 요리의 조합! 가볍게 먹기에 제격입니다!,40
+canape,bottle_beer,시원한 맥주와 가벼운 치즈 요리의 조합! 가볍게 먹기에 제격입니다!,40
+canape,live_beer,시원한 맥주와 가벼운 치즈 요리의 조합! 가볍게 먹기에 제격입니다!,40
+canape,makgeolli,새로운 시도를 하셨네요. 와인과 같은 발효주니 괜찮을지도...?,60
+canape,kettle_makgeolli,새로운 시도를 하셨네요. 와인과 같은 발효주니 괜찮을지도...? 하지만 주전자와 치즈의 비주얼 조합은.....,60
+canape,bottle_wine,와인 안주에 이만한 게 없죠. 분위기 좋게 혼술하세요!,85
+canape,glass_red_wine,치즈 요리의 진리는 레드 와인 그 자체 입니다.,92
+canape,glass_white_wine,치즈 요리와 화이트 와인은 생각보다 느끼할 수 있지요.,75
+canape,sake_pack,사케에 치즈 요리.. 나폴레옹의 개척정신을 이어받으신 분들이군요,60
+canape,liquor,강렬한 알콜향을 치즈로 잡아주는 조합. 찬성입니다.,70
+cheese,soju,치즈는 와인에게 양보하세요.... 제발요!,10
+cheese,fruit_soju,치즈는 와인에게 양보하세요.... 제발요!,10
+cheese,can_beer,열심히 일한 당신! 시원한 맥주 한잔!,92
+cheese,bottle_beer,열심히 일한 당신! 시원한 맥주 한잔!,92
+cheese,live_beer,열심히 일한 당신! 시원한 맥주 한잔!,92
+cheese,makgeolli,"남사친, 여사친과 마실때만 가능한 조합 ",51
+cheese,kettle_makgeolli,"남사친, 여사친과 마실때만 가능한 조합 ",51
+cheese,bottle_wine,풍미좋은 치즈와 와인은 너무나 유명하죠,99
+cheese,glass_red_wine,풍미좋은 치즈와 와인은 너무나 유명하죠,99
+cheese,glass_white_wine,화이트 와인에 깔끔한 치즈한조각!,99
+cheese,sake_pack,따듯하게 데운 사케는  따듯한 국물과 함께해요 ,51
+cheese,liquor,저지방 고단백 치즈와 양주는 숨겨진 찰떡궁합,99
+chicken,soju,치소파이시군요? 소주보다는 맥주와 함께 하는 건 어떨까요?,78
+chicken,fruit_soju,"WOW, 기름진 치킨에 상큼한 과일소주",93
+chicken,can_beer,치맥은 사랑입니다.  ,100
+chicken,bottle_beer,치맥은 진리입니다. ,100
+chicken,live_beer,치느님과 생맥주 한잔! 캬~~~,100
+chicken,makgeolli,아무거나 막~~시키셨어요. 취하신거죠 ? ,51
+chicken,kettle_makgeolli,아무거나 막~~시키셨어요. 취하신거죠 ? ,51
+chicken,bottle_wine,와인에 기름진 치킨보다는 단백한 치즈나 마른안주가 어떨까요 ? ,64
+chicken,glass_red_wine,와인에 기름진 치킨보다는 단백한 치즈나 마른안주가 어떨까요 ? ,64
+chicken,glass_white_wine,와인에 기름진 치킨보다는 단백한 치즈나 마른안주가 어떨까요 ? ,64
+chicken,sake_pack,개취 ! 난 스타일 강한사람이야~~ ,51
+chicken,liquor,오늘은 양주마시는 날.. 아무거나 시켜~,51
+corncheese,soju,소주의 기본안주!콘치즈!,92
+corncheese,fruit_soju,콘치즈는 어디에나 찰떡인데~ 과일소주와도 어울리나요?,75
+corncheese,can_beer,직접 만든 콘치즈인가요? 어쨌거나 맥주와 마시면 최고 맛있다는 점!,96
+corncheese,bottle_beer,직접 만든 콘치즈인가요? 어쨌거나 맥주와 마시면 최고 맛있다는 점!,96
+corncheese,live_beer,기본적인 안주지만 맥주와 함께 곁들이만 이만한 것도 없죠!,91
+corncheese,makgeolli,콘치즈와 막걸리... 평범하게 괜찮은 조합이네요! ,74
+corncheese,kettle_makgeolli,콘치즈와 막걸리... 평범하게 괜찮은 조합이네요! ,74
+corncheese,bottle_wine,와인에 간단하게 곁들여먹기 좋죠~,89
+corncheese,glass_red_wine,와인에 간단하게 곁들여먹기 좋죠~,89
+corncheese,glass_white_wine,와인에 간단하게 곁들여먹기 좋죠~,89
+corncheese,sake_pack,사케에 콘치즈.. 달고 쓴 단쓴 조합이네요. 매력적이에요.,72
+corncheese,liquor,양주와 콘치즈는 카나페 대용으론 안성맞춤이네요.,71
+dakbal,soju,"닭발에는 역시 소주죠! 당신은 뼈닭발 파인가요, 무뼈닭발 파인가요?",90
+dakbal,fruit_soju,닭발의 매콤한 맛과 과일은 조금 안어울릴 수도 있겠네요.,45
+dakbal,can_beer,맥주와 닭발? 매운맛을 잡아주는 톡쏘는 탄산. 이거 좋은데요?,75
+dakbal,bottle_beer,맥주와 닭발? 매운맛을 잡아주는 톡쏘는 탄산. 이거 좋은데요?,75
+dakbal,live_beer,맥주와 닭발? 매운맛을 잡아주는 톡쏘는 탄산. 이거 좋은데요?,80
+dakbal,makgeolli,닭갈비는 소주 뿐만 아니라 막걸리와도 잘 어울린다는 사실!,88
+dakbal,kettle_makgeolli,닭갈비는 소주 뿐만 아니라 막걸리와도 잘 어울린다는 사실!,88
+dakbal,bottle_wine,달고 맵고 이 조합 반대...건강을 해치는 맛..,49
+dakbal,glass_red_wine,달고 맵고 이 조합 반대...건강을 해치는 맛..,49
+dakbal,glass_white_wine,달고 맵고 이 조합 반대...건강을 해치는 맛..,49
+dakbal,sake_pack,닭발에는 역시 사케가 최고죠!,90
+dakbal,liquor,이런 조합은 별로 안 어울릴 것 같지 않나요?,50
+dakgalbi,soju,"닭갈비에 소주, 꽤 괜찮은 조합이네요!",80
+dakgalbi,fruit_soju,"과일향이 들어간 건 조금 안 어울릴 수 있지만, 취할 수만 있다면 괜찮을지도 몰라요!",70
+dakgalbi,can_beer,"맥주는 조금 안 어울릴 수 있지만, 정 원하신다면...",70
+dakgalbi,bottle_beer,"맥주는 조금 안 어울릴 수 있지만, 정 원하신다면...",70
+dakgalbi,live_beer,"맥주는 조금 안 어울릴 수 있지만, 정 원하신다면...",70
+dakgalbi,makgeolli,닭갈비에 막걸리를 곁들이면 진짜 좋아요!,85
+dakgalbi,kettle_makgeolli,주전자에 담긴 막걸리를 곁들이면 더욱 좋습니다!,87
+dakgalbi,bottle_wine,닭갈비에 와인? NO~,30
+dakgalbi,glass_red_wine,닭갈비에 와인? NO~,30
+dakgalbi,glass_white_wine,닭갈비에 와인? NO~,30
+dakgalbi,sake_pack,닭갈비에 사케도 나쁘지 않아요!,78
+dakgalbi,liquor,이런 경우에 양주를 먹는 건 좀...,50
+drysnacks,soju,소주를 마른 안주와 먹는 것도 나름 괜찮아요!,70
+drysnacks,fruit_soju,소주만큼은 아니지만... 그래도 괜찮네요,65
+drysnacks,can_beer,맥주와 간편하게 즐기는 마른안주 간편함 점수 100점!,80
+drysnacks,bottle_beer,저절로 손이 가는 마른 안주에는 역시 맥주!,88
+drysnacks,live_beer,저절로 손이가는 마른 안주에는 역시 생맥주!,88
+drysnacks,makgeolli,막걸리도 꽤 괜찮은 조합이예요,75
+drysnacks,kettle_makgeolli,막걸리도 꽤 괜찮은 조합이예요,75
+drysnacks,bottle_wine,마른 안주에 와인은 정말 깔끔한 조합입니다.,80
+drysnacks,glass_red_wine,마른 안주에 와인은 정말 깔끔한 조합입니다.,80
+drysnacks,glass_white_wine,마른 안주에 화이트 와인은 레드 와인 보다 훨씬 괜찮아요.,90
+drysnacks,sake_pack,저라면 안먹을래요.,60
+drysnacks,liquor,간단한 과자라면 저는 찬성입니다.,65
+egg,soju,계란말이에 소주를 먹는 건 꽤 괜찮은 거 같아요,80
+egg,fruit_soju,계란말이에 과일소주는 사람마다 조금 안 어울릴 수도...,60
+egg,can_beer,계란에 맥주를 먹는 건 좀...,50
+egg,bottle_beer,계란에 맥주를 먹는 건 좀...,50
+egg,live_beer,계란에 맥주를 먹는 건 좀...,50
+egg,makgeolli,계란에 막걸리 한 잔을 곁들인다면 꽤 어울릴 것 같네요!,85
+egg,kettle_makgeolli,계란에 막걸리 한 잔을 곁들인다면 꽤 어울릴 것 같네요!,85
+egg,bottle_wine,이럴 때 와인은... 좀 아니지 않나요?,20
+egg,glass_red_wine,이럴 때 와인은... 좀 아니지 않나요?,20
+egg,glass_white_wine,이럴 때 와인은... 좀 아니지 않나요?,20
+egg,sake_pack,계란말이에 사케는 아주 탁월한 선택입니다!,88
+egg,liquor,이런 건 왠지 안 어울리는 조합 아닐까요?,45
+fried,soju,튀김 반죽에 소주를 넣으면 더욱 바삭해진다는 사실! 알고 계신가요?!,83
+fried,fruit_soju,튀김을 좋아하시는군요?,75
+fried,can_beer,역시 맥주에는 바삭바삭! 튀김이죠~!,96
+fried,bottle_beer,역시 맥주에는 바삭바삭! 튀김이죠~!,96
+fried,live_beer,멋진 호프집에서 술 한 잔 하고 계시는군요? 튀김은 그냥 먹어도 맛있죠!,96
+fried,makgeolli,튀김은 어떤 안주에나 찰떡이죠. 막걸리와도 한 잔!,87
+fried,kettle_makgeolli,튀김은 어떤 안주에나 찰떡이죠. 막걸리와도 한 잔!,87
+fried,bottle_wine,흔한 조합은 아니지만 생각보다는 괜찮아요!,79
+fried,glass_red_wine,흔한 조합은 아니지만 생각보다는 괜찮아요!,79
+fried,glass_white_wine,흔한 조합은 아니지만 생각보다는 괜찮아요!,79
+fried,sake_pack,튀김은 사케와도 잘 어울려요!,85
+fried,liquor,특이하지만 나쁘지 않은 조합이네요!,70
+fruit,soju,깔끔하고 상큼한 과일안주에 소주 좋은 선택입니다!,60
+fruit,fruit_soju,달콤한 맛을 좋아하신다면 추천!,80
+fruit,can_beer,"저녁 피로를 싹 날려주고, 다음날 무리가 없는 선택",85
+fruit,bottle_beer,"저녁 피로를 싹 날려주고, 다음날 무리가 없는 선택",85
+fruit,live_beer,"저녁 피로를 싹 날려주고, 다음날 무리가 없는 선택",85
+fruit,makgeolli,다음날 머리 아플거같은데..단.단 조합은 머리가 단단해져욤..,40
+fruit,kettle_makgeolli,다음날 머리 아플거같은데..단.단 조합은 머리가 단단해져욤..,40
+fruit,bottle_wine,와인을 간단하게 즐길 수 있는 최고의 조합!,93
+fruit,glass_red_wine,와인을 간단하게 즐길 수 있는 최고의 조합!,93
+fruit,glass_white_wine,와인을 간단하게 즐길 수 있는 최고의 조합!,93
+fruit,sake_pack,함께 있는 일행분 조심하세요. 주당과 함께이십니다.,95
+fruit,liquor,근본,99
+grilledclams,soju,조개구이는 소주를 순삭시키죠. 소주를 부르는 그 맛!,98
+grilledclams,fruit_soju,조개구이는 소주를 순삭시키죠. 소주를 부르는 그 맛!,95
+grilledclams,can_beer,"보통은 소주와 함께 하지만, 시원한 맥주도 나쁘지 않습니다. ",82
+grilledclams,bottle_beer,"보통은 소주와 함께 하지만, 시원한 맥주도 나쁘지 않습니다. ",82
+grilledclams,live_beer,"보통은 소주와 함께 하지만, 시원한 맥주도 나쁘지 않습니다. ",82
+grilledclams,makgeolli,조개구이는 깔끔한 술이 더 잘 어울립니다!,30
+grilledclams,kettle_makgeolli,조개구이에 막걸리는 정말 인생 마이웨이로 사시는 분들이군요.,25
+grilledclams,bottle_wine,해산물과 와인이 어울리지 않을 리가 없죠?!,92
+grilledclams,glass_red_wine,해산물과 와인이 어울리지 않을 리가 없죠?! 화이트가 더 보편적이지만요!,90
+grilledclams,glass_white_wine,해산물과 와인이 어울리지 않을 리가 없죠?!,92
+grilledclams,sake_pack,조개구이에는 사케가 딱이겠죠?,94
+grilledclams,liquor,한식당가서 스테이크 찾는 분들이 여기 계시네요.,12
+grilledfish,soju,나름 괜찮은 조합이군요!,75
+grilledfish,fruit_soju,생각만해도 토나오는 조합!,14
+grilledfish,can_beer,비린맛을 날릴 땐 탄산이 최고!,77
+grilledfish,bottle_beer,비린맛을 날릴 땐 탄산이 최고!,79
+grilledfish,live_beer,비린맛을 날릴 땐 탄산이 최고! 그 중 으뜸은 생맥주죠!,83
+grilledfish,makgeolli,"비린맛을 탄산으로 잡고, 거기다가 은은한 단 맛까지? 술 맛있게 먹는 분들!",88
+grilledfish,kettle_makgeolli,"비린맛을 탄산으로 잡고, 거기다가 은은한 단 맛까지? 술 맛있게 먹는 분들!",88
+grilledfish,bottle_wine,"어떤 생선일지 모르겠지만, 참치 이상이면 인정해줄게요...",24
+grilledfish,glass_red_wine,"어떤 생선일지 모르겠지만, 참치 이상이면 인정해줄게요...",24
+grilledfish,glass_white_wine,"어떤 생선일지 모르겠지만, 참치 이상이면 인정해줄게요...",24
+grilledfish,sake_pack,비린맛잡는 도둑 ! 소주보단 아니지만 사케도 뭐..인정!,70
+grilledfish,liquor,은근 고급스러운 조합입니다.,76
+grilledmeat,soju,고기와 소주는 세상에서 가장 완벽한 조합입니다!,95
+grilledmeat,fruit_soju,고기 먹으면서 상큼한 맛을 느끼고 싶다면 추천!,90
+grilledmeat,can_beer,소주만큼은 아니지만 그래도 꽤 괜찮아요,80
+grilledmeat,bottle_beer,소주만큼은 아니지만 그래도 꽤 괜찮아요,80
+grilledmeat,live_beer,생맥주는 조금 더 괜찮을지도...,85
+grilledmeat,makgeolli,막걸리도 나름 괜찮은 것 같아요,75
+grilledmeat,kettle_makgeolli,막걸리도 나름 괜찮은 것 같아요,75
+grilledmeat,bottle_wine,"이런 상황에 와인을 드시겠다니, 이런!",30
+grilledmeat,glass_red_wine,"이런 상황에 와인을 드시겠다니, 이런!",30
+grilledmeat,glass_white_wine,"이런 상황에 와인을 드시겠다니, 이런!",30
+grilledmeat,sake_pack,고기에 사케도 나름 탁월한 선택입니다.,87
+grilledmeat,liquor,양주는... 더더욱 비추입니다ㅠㅠ,20
+jeon,soju,전과 소주도 무난하게 좋은 조합이군요. 어떤 전을 드시고 계신가요?,79
+jeon,fruit_soju,전의 기름기를 과일이 중화해줄 수도 있을까요?,65
+jeon,can_beer,"막걸리와 먹는 것이 정석이지만, 맥주와도 잘 어울립니다!",84
+jeon,bottle_beer,"막걸리와 먹는 것이 정석이지만, 맥주와도 잘 어울립니다!",84
+jeon,live_beer,"막걸리와 먹는 것이 정석이지만, 맥주와도 잘 어울립니다!",84
+jeon,makgeolli,"막걸리에 전의 조합은 100점이지만, 비까지 온다면? 200점!",90
+jeon,kettle_makgeolli,주전자 막걸리에 사이다 좀만 섞어봐요. 그럼 100점 달성 SSAP 가능,95
+jeon,bottle_wine,진짜 술 1도 모르는 사람들,50
+jeon,glass_red_wine,진짜 술 1도 모르는 사람들,50
+jeon,glass_white_wine,진짜 술 1도 모르는 사람들,50
+jeon,sake_pack,난 이 조합 찬성. 꾼 조합.,76
+jeon,liquor,안주는 장식으로 드신다는 바이브라면 인정. 킹정,15
+kkochi,soju,한잔에 한점~ 한잔에 두점은 반칙인거 아시죠?,80
+kkochi,fruit_soju,상큼한 과일소주와 좋은 조합입니다!,70
+kkochi,can_beer,시원한 맥주와 함께라면 끝도 없이 먹을수도 있어요,80
+kkochi,bottle_beer,시원한 맥주와 함께라면 끝도 없이 먹을수도 있어요,80
+kkochi,live_beer,시원한 맥주와 함께라면 끝도 없이 먹을수도 있어요,80
+kkochi,makgeolli,걸쭉한 막걸리와 함께라면 맛이 없을수가 없죠!,70
+kkochi,kettle_makgeolli,걸쭉한 막걸리와 함께라면 맛이 없을수가 없죠!,70
+kkochi,bottle_wine,와인과 함께라면 꼬치도 고급 안주로 변신!,50
+kkochi,glass_red_wine,와인과 함께라면 꼬치도 고급 안주로 변신!,50
+kkochi,glass_white_wine,와인과 함께라면 꼬치도 고급 안주로 변신!,50
+kkochi,sake_pack,사케와 궁합은 '매우 좋음!',80
+kkochi,liquor,양념이 조금 덜 된 안주가 더 잘 어울려요~,50
+muchim,soju,다소 맛이 강한 무침류와 깔끔한 소주의 궁합? 말할 것도 없이 good,96
+muchim,fruit_soju,다소 맛이 강한 무침류와 깔끔한 소주의 궁합? 말할 것도 없이 good,96
+muchim,can_beer,맥주랑 무침류는 너무 배부를 거 같아..깔끔한 소주는 어때요?,41
+muchim,bottle_beer,맥주랑 무침류는 너무 배부를 거 같아..깔끔한 소주는 어때요?,41
+muchim,live_beer,맥주랑 무침류는 너무 배부를 거 같아..깔끔한 소주는 어때요?,43
+muchim,makgeolli,"막걸리 + 골뱅이 소면은 진리인데, 혹시나 다른 무침류라도 좋아 좋아! ",78
+muchim,kettle_makgeolli,"주전자 막걸리 + 골뱅이 소면은 진리이며, 다른 무침류도 좋아요! 특히 주전자라 분위기 up up!",81
+muchim,bottle_wine,집에서 간단하게 먹고 싶은데 분위기를 내고 싶다면? 이 선택 좋아요,73
+muchim,glass_red_wine,집에서 간단하게 먹고 싶은데 분위기를 내고 싶다면? 이 선택 좋아요,72
+muchim,glass_white_wine,"집에서 간단하게 먹고 싶은데 분위기를 내고 싶을 때, 이 조합은 찬성! 특히 화이트 와인 선택은 신의 한수",88
+muchim,sake_pack,맛과 향이 조금은 쎈 무침류 음식을 싹 날려줄 사케 한 잔! 굿굿굿,87
+muchim,liquor,양주 아까워요.. 뭐? 이 의견 반대라구요? 진실의 방으로,33
+nacho,soju,나초는 좀 더 가벼운 술과 함께해보세요!,55
+nacho,fruit_soju,과일주랑 함께하면 조금은 더 어울릴 수 있어요,65
+nacho,can_beer,맥주도 나초에 꽤 어울려요,80
+nacho,bottle_beer,맥주도 나초에 꽤 어울려요,80
+nacho,live_beer,맥주도 나초에 꽤 어울려요,80
+nacho,makgeolli,이럴수가! 나초에 막걸리라니!,20
+nacho,kettle_makgeolli,이럴수가! 나초에 막걸리라니!,20
+nacho,bottle_wine,나초에 와인은 그야말로 안성맞춤!,95
+nacho,glass_red_wine,나초에 와인은 그야말로 안성맞춤!,95
+nacho,glass_white_wine,나초에 와인은 그야말로 안성맞춤!,95
+nacho,sake_pack,좀 안 어울릴 수는 있지만... 즐기실 수만 있다면 말리지 않을게요,58
+nacho,liquor,좀 안 어울릴 수는 있지만... 즐기실 수만 있다면 말리지 않을게요,60
+nut,soju,꽤 어울리는 조합입니다,72
+nut,fruit_soju,견과류에 달콤한 맛은 별로인 거 같은데요...?,50
+nut,can_beer,편의점 조합인가요? 간편하게 한 잔 하기 딱이죠~,88
+nut,bottle_beer,고소한 견과류는 언제나 어디에나 잘 어울려요!,82
+nut,live_beer,고소한 견과류는 언제나 어디에나 잘 어울려요!,82
+nut,makgeolli,"다소 안 어울릴 수는 있지만, 괜찮으시다면...",65
+nut,kettle_makgeolli,"다소 안 어울릴 수는 있지만, 괜찮으시다면...",65
+nut,bottle_wine,간편하게 까먹으면서 마시기 좋은 조합이네요. 깔끔하고 고소해요!,76
+nut,glass_red_wine,간편하게 까먹으면서 마시기 좋은 조합이네요. 깔끔하고 고소해요!,76
+nut,glass_white_wine,간편하게 까먹으면서 마시기 좋은 조합이네요. 깔끔하고 고소해요!,72
+nut,sake_pack,사케와 견과류...? 특이하지만 맛만 있다면 오케이입니다!,71
+nut,liquor,양주와 견과류...? 당신만 맛있게 먹는다면 오케이입니다!,70
+pizza,soju,야근을 힘내게 하는 것은? 피자+소주= 피쏘!,87
+pizza,fruit_soju,자주 보이는 조합은 아니지만 나만 맛있다면 상관없겠죠?,77
+pizza,can_beer,역시 피자에는 맥주죠!,80
+pizza,bottle_beer,역시 피자에는 맥주죠!,80
+pizza,live_beer,피맥! 맥주와 함께라면 한판도 거뜬하죠!,75
+pizza,makgeolli,막사피'를아시는 분이네..막걸리 + 사이다 + 피자..조합의 신,85
+pizza,kettle_makgeolli,막사피'를아시는 분이네..막걸리 + 사이다 + 피자..조합의 신,85
+pizza,bottle_wine,피자 먹으면서 우아한 분위기를 느끼고 싶다면 추천!,70
+pizza,glass_red_wine,피자 먹으면서 우아한 분위기를 느끼고 싶다면 추천!,70
+pizza,glass_white_wine,피자 먹으면서 우아한 분위기를 느끼고 싶다면 추천!,70
+pizza,sake_pack,사케도 그렇게 나쁘지는 않은 것 같아요,67
+pizza,liquor,"양주는 솔직히 별로인 것 같아요,,,",50
+popcorn,soju,스낵과 소주! 진정한 소주파시군요!,15
+popcorn,fruit_soju,스낵과 과일소주! 단짠단짠의 조화가 좋아요~,30
+popcorn,can_beer,영화관이 생각나는 조합! 간편하게 즐길 수 있는 좋은 조합입니다,60
+popcorn,bottle_beer,영화관이 생각나는 조합! 간편하게 즐길 수 있는 좋은 조합입니다,60
+popcorn,live_beer,먹으면 먹을수록 계속 먹고싶은 맥주와 스낵류! ,60
+popcorn,makgeolli,스낵에 막걸리...? 의외로 맛있는 조합일 수도...?,40
+popcorn,kettle_makgeolli,스낵에 막걸리...? 의외로 맛있는 조합일 수도...?,40
+popcorn,bottle_wine,스낵류에 와인도 그렇게 나쁘진 않아요,55
+popcorn,glass_red_wine,스낵류에 와인도 그렇게 나쁘진 않아요,55
+popcorn,glass_white_wine,스낵류에 와인도 그렇게 나쁘진 않아요,55
+popcorn,sake_pack,이거... 완전 새로운 조합이군요!,25
+popcorn,liquor,스낵류도 좋지만 조금 더 강렬한 맛의 안주가 더 잘 어울려요~,50
+ramen,soju,혹시 오늘 하루가 고되고 지치진 않았나요? 어쩐지 고단함이 묻어나는 조합이네요.,75
+ramen,fruit_soju,라면에 과일맛은 별로 안 어울리는 것 같아요,50
+ramen,can_beer,라면에 맥주를 먹는 당신은 개성파!,60
+ramen,bottle_beer,라면에 맥주를 먹는 당신은 개성파!,60
+ramen,live_beer,라면에 맥주를 먹는 당신은 개성파!,60
+ramen,makgeolli,매콤한 라면에 달달한 막걸리는 환상의 짝꿍!,89
+ramen,kettle_makgeolli,매콤한 라면에 달달한 막걸리는 환상의 짝꿍!,89
+ramen,bottle_wine,라면에 와인... 이거는 좀 비추입니다..,30
+ramen,glass_red_wine,라면에 와인... 이거는 좀 비추입니다..,30
+ramen,glass_white_wine,라면에 와인... 이거는 좀 비추입니다..,30
+ramen,sake_pack,라면과 사케도 꽤 어울려요!,80
+ramen,liquor,라면에 양주는 좀 안 어울리는 듯..,35
+salad,soju,샐러드에 소주...? 처음 들어보는 조합이지만 당신만 좋다면요...,62
+salad,fruit_soju,상큼함으로 승부하는 조합인가요? 맛이 어떨지 궁금하네요!,61
+salad,can_beer,즐기기에는 나쁘지 않은 것 같아요,75
+salad,bottle_beer,즐기기에는 나쁘지 않은 것 같아요,75
+salad,live_beer,즐기기에는 나쁘지 않은 것 같아요,75
+salad,makgeolli,샐러드에 막걸리를 먹는 건 좀 아니지 않을까요?,55
+salad,kettle_makgeolli,샐러드에 막걸리를 먹는 건 좀 아니지 않을까요?,55
+salad,bottle_wine,샐러드에 와인 한 잔이면 최고의 하루!,90
+salad,glass_red_wine,샐러드에 와인 한 잔이면 최고의 하루!,90
+salad,glass_white_wine,샐러드에 와인 한 잔이면 최고의 하루!,90
+salad,sake_pack,"안 어울릴 수 있지만, 괜찮으시다면 즐기시는 것도 나쁘지 않아요",65
+salad,liquor,샐러드에 무거운 양주는 너무 안 어울려요,40
+sausage,soju,소세지의 육즙과 깔끔한 소주가 함께!,93
+sausage,fruit_soju,소세지의 고소함과 과일주의 달콤함이 어우러진 궁극의 조합!,87
+sausage,can_beer,마치 독일에 간 기분? 최고의 조합입니다!,90
+sausage,bottle_beer,마치 독일에 간 기분? 최고의 조합입니다!,90
+sausage,live_beer,마치 독일 옥토버페스트에 간 기분? 최고의 조합입니다!,90
+sausage,makgeolli,사실 소세지는 어떤 술과 먹어도 다 잘 어울려요!,70
+sausage,kettle_makgeolli,사실 소세지는 어떤 술과 먹어도 다 잘 어울려요!,70
+sausage,bottle_wine,짭짤한 소세지가 와인의 맛을 한층 더 살려주네요,70
+sausage,glass_red_wine,짭짤한 소세지가 와인의 맛을 한층 더 살려주네요,70
+sausage,glass_white_wine,짭짤한 소세지가 와인의 맛을 한층 더 살려주네요,70
+sausage,sake_pack,소세지는 어떤 술과도 잘 어울리죠! 좋은 조합입니다!,60
+sausage,liquor,소세지는 어떤 술과도 잘 어울리죠! 좋은 조합입니다!,60
+soup,soju,뜨끈한 국물과 소주 한 잔이면 그 날의 근심이 다 잊히는 기분이죠?,84
+soup,fruit_soju,국물과 달콤한 맛은 별로 안 어울리는 것 같아요,70
+soup,can_beer,이 경우에 맥주는 별로 안 어울리지 않을까요?,45
+soup,bottle_beer,이 경우에 맥주는 별로 안 어울리지 않을까요?,45
+soup,live_beer,이 경우에 맥주는 별로 안 어울리지 않을까요?,45
+soup,makgeolli,꽤 괜찮은 조합이네요,78
+soup,kettle_makgeolli,꽤 괜찮은 조합이네요,78
+soup,bottle_wine,맑은 국물과 와인의 조합은 늘 좋습니다!,92
+soup,glass_red_wine,맑은 국물과 와인의 조합은 늘 좋습니다!,88
+soup,glass_white_wine,맑은 국물과 화이트 와인은 찰떡궁합이에요!,92
+soup,sake_pack,맑은 국물에 사케를 드신다면 굿!,80
+soup,liquor,국물에 양주는 너무 비추예요ㅠㅠ,40
+spicysoup,soju,"뜨뜻한 찌개에 소주한잔, 좋은 조합입니다",90
+spicysoup,fruit_soju,찌개와 과일맛은 서로의 맛을 해치는 느낌이에요,40
+spicysoup,can_beer,소주가 너무 무겁다면? 맥주와도 찌개는 잘 어울리죠~,70
+spicysoup,bottle_beer,소주가 너무 무겁다면? 맥주와도 찌개는 잘 어울리죠~,70
+spicysoup,live_beer,소주가 너무 무겁다면? 맥주와도 찌개는 잘 어울리죠~,70
+spicysoup,makgeolli,크~ 전통적인 조합인데요? 당신은 진정한 맛을 아시는 분!,80
+spicysoup,kettle_makgeolli,크~ 전통적인 조합인데요? 당신은 진정한 맛을 아시는 분!,80
+spicysoup,bottle_wine,매콤한 국물과 와인이 어울리기는 힘들 것 같아요!,42
+spicysoup,glass_red_wine,매콤한 국물과 와인이 어울리기는 힘들 것 같아요!,42
+spicysoup,glass_white_wine,다음에는 와인과 매운 국물보다는 맑은 국물은 어떠세요?,74
+spicysoup,sake_pack,붉은 국물에 사케를 드신다면 베리베리 굿!,86
+spicysoup,liquor,찌개에 양주는 너무너무 비추예요ㅠㅠ,35
+squid,soju,무난하게 좋은 선택이네요. 질겅질겅 씹는 맛이 일품!,90
+squid,fruit_soju,오징어의 향을 과일소주가 가볍게 덮어주는 훌륭한 조합!,80
+squid,can_beer,다른 안주보다 오징어가 끌리는 날이 있죠. 훌륭한 조합입니다!,90
+squid,bottle_beer,다른 안주보다 오징어가 끌리는 날이 있죠. 훌륭한 조합입니다!,90
+squid,live_beer,다른 안주보다 오징어가 끌리는 날이 있죠. 훌륭한 조합입니다!,90
+squid,makgeolli,막걸리가 오징어의 비린맛을 끌어올려요...,30
+squid,kettle_makgeolli,막걸리가 오징어의 비린맛을 끌어올려요...,30
+squid,bottle_wine,와인과 오징어! 신선한 조합입니다!,30
+squid,glass_red_wine,와인과 오징어! 신선한 조합입니다!,30
+squid,glass_white_wine,"해산물과 잘 어울리는 화이트와인, 오징어와의 조합은 어떨까요?",50
+squid,sake_pack,사케와 먹으면 오징어의 맛이 잘 느껴지지 않을수도...?,40
+squid,liquor,간편하게 즐길 수 있는 좋은 조합입니다.,50
+sushi,soju,"달큰한 회 한점에 소주 한잔이면, 하루에 피로가 가시는 느낌이죠",90
+sushi,fruit_soju,"달큰한 회 한점에 소주 한잔이면, 하루에 피로가 가시는 느낌이죠",90
+sushi,can_beer,맥주도 좋아요. 회는 안어울리는 음식이 있을까요?,85
+sushi,bottle_beer,맥주도 좋아요. 회는 안어울리는 음식이 있을까요?,85
+sushi,live_beer,맥주도 좋아요. 회는 안어울리는 음식이 있을까요?,85
+sushi,makgeolli,"막걸리도 나쁘지 않은 선택입니다. 그래도 소주, 맥주보단 좀 그렇죠잉?",70
+sushi,kettle_makgeolli,"막걸리도 나쁘지 않은 선택입니다. 그래도 소주, 맥주보단 좀 그렇죠잉?",70
+sushi,bottle_wine,찾았다. 회와 안어울리는 술..,32
+sushi,glass_red_wine,찾았다. 회와 안어울리는 술..,33
+sushi,glass_white_wine,찾았다. 회와 안어울리는 술..,34
+sushi,sake_pack,사케와 함께라면 즐거운 술자리!,96
+sushi,liquor,안돼요... 이 자리에 양주는...,30
+tofukimchi,soju,두부김치에 소주... 배우신 분,80
+tofukimchi,fruit_soju,술을 잘 모르시는 분,20
+tofukimchi,can_beer,"안주로 배 채우시는 분, 멀리하세요.",10
+tofukimchi,bottle_beer,"안주로 배 채우시는 분, 멀리하세요.",10
+tofukimchi,live_beer,"안주로 배 채우시는 분, 멀리하세요.",10
+tofukimchi,makgeolli,"정말 잘 배우신 분, 술자리 인싸스타일",85
+tofukimchi,kettle_makgeolli,"정말 잘 배우신 분, 술자리 인싸스타일",85
+tofukimchi,bottle_wine,K-winebar를 지향하시지만 혈관 속엔 소주가 흐르는 스타일,50
+tofukimchi,glass_red_wine,K-winebar를 지향하시지만 혈관 속엔 소주가 흐르는 스타일,50
+tofukimchi,glass_white_wine,K-winebar를 지향하시지만 혈관 속엔 소주가 흐르는 스타일,50
+tofukimchi,sake_pack,술에 대해 배우려는 의지가 있으신 분들,70
+tofukimchi,liquor,은근 깔끔할수도 있겠습니다.,50
+tteokbokki,soju,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ왜 웃는지 아시려나,10
+tteokbokki,fruit_soju,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ소주보단 낫네요ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ,15
+tteokbokki,can_beer,"떡볶이에 맥주라니, 숨은 맛의 조합을 찾아내셨군요! 좋은 시도입니다!",65
+tteokbokki,bottle_beer,"떡볶이에 맥주라니, 숨은 맛의 조합을 찾아내셨군요! 좋은 시도입니다!",65
+tteokbokki,live_beer,"떡볶이에 맥주라니, 숨은 맛의 조합을 찾아내셨군요! 좋은 시도입니다!",65
+tteokbokki,makgeolli,막걸리에 사이다 섞어봐요. 신세계를 맛보실 수 있습니다.,70
+tteokbokki,kettle_makgeolli,막걸리에 사이다 섞어봐요. 신세계를 맛보실 수 있습니다.,70
+tteokbokki,bottle_wine,음.. 잘 모르겠어요.. 진짜 잘 모르겠어요.. 무슨 의도이신지..,11
+tteokbokki,glass_red_wine,음.. 잘 모르겠어요.. 진짜 잘 모르겠어요.. 무슨 의도이신지..한 잔이라면 추천..하지 않아요 그래도,12
+tteokbokki,glass_white_wine,음.. 잘 모르겠어요.. 진짜 잘 모르겠어요.. 무슨 의도이신지..,13
+tteokbokki,sake_pack,비상한 생각을 갖고 계시네요. (비상 : 형용사 : 비위가 상하는 ),10
+tteokbokki,liquor,비상한 생각을 갖고 계시네요. (비상 : 형용사 : 비위가 상하는 ),10
+gambas,soju,독특하지만 생각보다는 더 잘 어울린다는 사실!,75
+gambas,fruit_soju,독특하지만 생각보다는 더 잘 어울린다는 사실!,78
+gambas,can_beer,감바스와 맥주가 당신의 배를 든든하게 채워줍니다.,94
+gambas,bottle_beer,감바스와 맥주가 당신의 배를 든든하게 채워줍니다.,94
+gambas,live_beer,감바스와 맥주가 당신의 배를 든든하게 채워줍니다.,94
+gambas,makgeolli,의외의 조합일 수 있지만 나쁘지는 않습니다!,63
+gambas,kettle_makgeolli,의외의 조합일 수 있지만 나쁘지는 않습니다!,63
+gambas,bottle_wine,와인에는 역시 감바스가 최고죠! 플러스 천점!,100
+gambas,glass_red_wine,와인에는 역시 감바스가 최고죠! 플러스 천점!,100
+gambas,glass_white_wine,와인에는 역시 감바스가 최고죠! 플러스 천점!,100
+gambas,sake_pack,사케의 깔끔한 맛과 의외로 잘 어울리죠,70
+gambas,liquor,높은 도수의 술과 감바스는 잘 어울려요,80
+parboiled_squid,soju,오징어숙회와 소주는 클래식이죠~! 깔끔한 느낌이네요!,97
+parboiled_squid,fruit_soju,어울릴 듯 안어울릴 듯?! ,83
+parboiled_squid,can_beer,오징어 숙회는 여름철 맥주 술안주로 최고입니다!,90
+parboiled_squid,bottle_beer,오징어 숙회는 여름철 맥주 술안주로 최고입니다!,90
+parboiled_squid,live_beer,오징어 숙회는 여름철 맥주 술안주로 최고입니다!,90
+parboiled_squid,makgeolli,오징어숙회는 막걸리와도 잘 어울리죠. 특히 여름에 먹기 좋은 조합!,88
+parboiled_squid,kettle_makgeolli,오징어숙회는 막걸리와도 잘 어울리죠. 특히 여름에 먹기 좋은 조합!,88
+parboiled_squid,bottle_wine,와인과도 깔끔한 맛을 자랑하는 오징어숙회! 어디에나 잘 어울립니다.,90
+parboiled_squid,glass_red_wine,와인과도 깔끔한 맛을 자랑하는 오징어숙회! 어디에나 잘 어울립니다.,90
+parboiled_squid,glass_white_wine,와인과도 깔끔한 맛을 자랑하는 오징어숙회! 어디에나 잘 어울립니다.,95
+parboiled_squid,sake_pack,흔한 픽은 아니지만! 가볍고 건강하게 먹기 좋은 조합이에요.,82
+parboiled_squid,liquor,글쎄요... ... 다시 생각해보시는 건 어떨까요?!,58
+taco,soju,타코에 소주? 멕시코에서 데킬라를 마시는데는 다 이유가 있지요~,40
+taco,fruit_soju,타코에 과일소주? 멕시코에서 데킬라를 마시는데는 다 이유가 있지요....,40
+taco,can_beer,타코+ 맥주= 환상의 궁합! 최고의 케미! 먹고 나면 배부르겠네요~,95
+taco,bottle_beer,타코+ 맥주= 환상의 궁합! 최고의 케미! 먹고 나면 배부르겠네요~,95
+taco,live_beer,타코+ 맥주= 환상의 궁합! 최고의 케미! 먹고 나면 배부르겠네요~,95
+taco,makgeolli,동서양의 조화가 새롭지만 맛의 조합은 보통!,60
+taco,kettle_makgeolli,동서양의 조화가 새롭지만 맛의 조합은 보통!,60
+taco,bottle_wine,타코의 강렬한 맛이 와인의 맛을 제대로 느끼지 못하게 합니다 ㅜㅜ,40
+taco,glass_red_wine,타코의 강렬한 맛이 와인의 맛을 제대로 느끼지 못하게 합니다 ㅜㅜ,40
+taco,glass_white_wine,타코의 강렬한 맛이 와인의 맛을 제대로 느끼지 못하게 합니다 ㅜㅜ,40
+taco,sake_pack,타코에 사케? 멕시코에서 데킬라를 마시는데는 다 이유가 있지요~,50
+taco,liquor,타코는 도수가 높은 술과 의외로 괜찮은 조합일지도 몰라요~,70
+pasta,soju,파스타에 소주...? 애인이 싫어할지도 몰라요. 혼자서만 먹기로 약속~,30
+pasta,fruit_soju,파스타에 소주...? 애인이 싫어할지도 몰라요. 혼자서만 먹기로 약속~,30
+pasta,can_beer,간편하게 먹기 괜찮은 조합입니다!,65
+pasta,bottle_beer,간편하게 먹기 괜찮은 조합입니다!,65
+pasta,live_beer,간편하게 먹기 괜찮은 조합입니다!,65
+pasta,makgeolli,떡국과 와인을 먹는 느낌일까요? 새로운 도전정신을 칭찬합니다!,30
+pasta,kettle_makgeolli,떡국과 와인을 먹는 느낌일까요? 새로운 도전정신을 칭찬합니다!,30
+pasta,bottle_wine,좋은 와인은 좋은 파스타에 곁들이기 좋습니다!,97
+pasta,glass_red_wine,좋은 와인은 좋은 파스타에 곁들이기 좋습니다!,97
+pasta,glass_white_wine,좋은 와인은 좋은 파스타에 곁들이기 좋습니다!,97
+pasta,sake_pack,이자카야에서 파스타를 안파는 이유가 있겠죠?,50
+pasta,liquor,독주와 의외로 괜찮은 조합이에요!,70
