@@ -30,15 +30,28 @@ def scoring(labels):
         if sortlabels["alcohol"] == None and key_list[i] in alcohollist:
             sortlabels["alcohol"] = key_list[i]
 
-    if None in list(sortlabels.values()):
-        score = "술이나 안주가 부족해요"
-        desc, anju, alcohol = None, None, None
+    infolist = pd.read_csv('combination.csv')
 
-    else:
+    if None in list(sortlabels.values()):
+        # score = "술이나 안주가 부족해요"
+        # desc, anju, alcohol = None, None, None
         infolist = pd.read_csv('combination.csv')
 
+        uncomplete_result = infolist[(infolist['anju']==sortlabels["anju"]) | (infolist['alcohol']==sortlabels["alcohol"])]
+        uncomplete_result = uncomplete_result.sort_values(by=['score'], ascending=False)
+        result = uncomplete_result.iloc[0, :]
+
+        anju = sortlabels["anju"]
+        alcohol = sortlabels["alcohol"]
+        score = None
+        desc = str(result[0] if sortlabels["anju"] == None else result[1]) + "과 같이 먹어보는건 어떨까요?"
+
+
+    else:
         result_ex = infolist[(infolist['anju']==sortlabels["anju"]) & (infolist['alcohol']==sortlabels["alcohol"])]
         result = list(result_ex.iloc[0, :])
+        supplement = None
+
         anju = result[0]
         alcohol = result[1]
         score = result[3]
