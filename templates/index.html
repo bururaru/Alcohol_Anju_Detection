@@ -7,6 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>酒조상궁</title>
   <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css?ver=11">
+    <!--제이쿼리 3.5.1 버전-->
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('#loading').hide();
+    });
+  </script>
+  <script>
+  function countUp(count)
+  {console.log(count);
+    var div_by = 100,
+        speed = Math.round(count / div_by),
+        $display = $('.count'),
+        run_count = 1,
+        int_speed = 35;
+
+    var int = setInterval(function() {
+      if(run_count < count){
+        $display.text(speed * run_count);
+        run_count++;
+      } else if(parseInt($display.text()) < count) {
+        var curr_count = parseInt($display.text()) + 1;
+        $display.text(curr_count);
+      } else {
+        clearInterval(int);
+      }
+    }, int_speed);
+  }
+  </script>
+    <script>
+        $( document ).ready(function() {
+         console.log( "ready!" );
+         countUp({{score}});
+         });
+    </script>
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -18,6 +55,8 @@
 </head>
 <!--------------------------------------- HEAD END --------------------------------------->
 <!-------------------------------------- BODY START -------------------------------------->
+<body>
+  <!--로딩바-->
 <body style="background-color: #FAF1BE !important;">
   <section id="main_contents">
     <div class="wrapper">
@@ -58,13 +97,13 @@
           <br><br>
           <hr class="border_line" size="5px" color="black" noshade="">
 
-          <div id="label-container">
-            <div id="anju" class="d-flex" style="display:flex !important"></div>
-            <div id="alcohol" class="d-flex" style="display:flex !important"></div>
-          </div>
-
            <!-------------------------------------- FILE UPLOAD -------------------------------------->
            <!-------------------------------------- RESULTs AREA-------------------------------------->
+          <!--로딩바-->
+          <div id="loading" style="margin-left: 0px;">
+            <img src="/static/img/loading.gif">
+            <p>변환중입니다..잠시기다려주세요.</p>
+          </div>
             {% if result_img %}
             <img src="{{url_for('static', filename='result_img/'+result_img)}}" class="img-fluid z-depth-1-half" alt="">
             {% endif %}
@@ -77,6 +116,8 @@
             <br>
             <h3 class="text-center mt-3 text-success">{% if score %} * Score : {{ score }} {% endif %}</h3>
             <br>
+            {% if score %}<div class="count">0</div>{% endif %}
+            <br>
             <h3 class="text-center mt-3 text-success">{% if desc %} * desc : {{ desc }} {% endif %}</h3>
             <br>
           <!-------------------------------------- RESULTs AREA-------------------------------------->
@@ -86,6 +127,12 @@
     <!--Main layout-->
   </section>
 </body>
+<script>
+  $('#ex_submit').click(function(){
+    $('#loading').show();
+    return true;
+    });
+</script>
 <script>
   $(function(){
   console.log('success2!')
@@ -100,7 +147,7 @@
 			var bar = "<div class='bar-container position-relative container'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round({{anju_score}}.toFixed(2) * 100) + "%</span></div></div>"
 			document.getElementById("anju").innerHTML = label + bar;
 			console.log("{{anju}}", {{anju_score}})
-			
+
 			var barWidth2 = Math.round({{alcohol_score}}.toFixed(2) * 100) + "%";
 			var label2 = "<div class='food-label d-flex align-items-center'>" + "{{alcohol}}" + "</div>"
 			var bar2 = "<div class='bar-container position-relative container'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth2 + "'><span class='d-block percent-text'>" + Math.round({{alcohol_score}}.toFixed(2) * 100) + "%</span></div></div>"
