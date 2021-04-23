@@ -1,6 +1,6 @@
 # custom img file
-uploads/
-static/result_img/
+uploads/*
+static/result_img/*
 
 /combination.csv
 
