@@ -121,7 +121,7 @@ img {
 .filebox label {
     border-style: none;
     border-radius: 10px;
-    width: 15vmax;
+    width: 15vh;
     height: 20px;
     text-align: center;
     display: inline-block;
@@ -140,7 +140,6 @@ img {
 .filebox {
     position : absolute;
 }
-
 
 .filebox label:hover {
     background-color: lightyellow;
