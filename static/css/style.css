@@ -1,71 +1,14 @@
-/*.text-typing {*/
-/*  padding:20px 30px;*/
-/*  background:#f5f5f5;*/
-/*  font-size:35px;*/
-/*  font-family:monospace;*/
-/*  border-radius:50px;*/
-/*}*/
-@import compass
+*{
+    font-family: 'NEXON Lv1 Gothic OTF';
+  }
 
+@import compass
+text-success {
+    color :rgba(27, 175, 234, 1)
+}
 /*.raise_test:hover,*/
 /*.raise_test:focus {*/
 /*  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);*/
-/*  transform: translateY(-0.25em);*/
-/*}*/
-
-/*$colors: (*/
-/*  raise_test: #ffa260*/
-/*);*/
-
-/*@each $button, $color in $colors {*/
-/*  .#{$button} {*/
-/*    --color: #{$color};*/
-/*    --hover: #{adjust-hue($color, 45deg)};*/
-/*  }*/
-/*}*/
-
-/*button {*/
-/*  color: var(--color);*/
-/*  transition: 0.25s;*/
-
-/*  &:hover,*/
-/*  &:focus {*/
-/*    border-color: var(--hover);*/
-/*    color: #fff;*/
-/*  }*/
-/*}*/
-
-/*//=== Pen styling, ignore*/
-/*body {*/
-/*  color: #fff;*/
-/*  background: hsl(227, 10%, 10%);*/
-/*  font: 300 1em 'Fira Sans', sans-serif;*/
-
-/*  // Center everything ever*/
-/*  justify-content: center;*/
-/*  align-content: center;*/
-/*  align-items: center;*/
-/*  text-align: center;*/
-/*  min-height: 100vh;*/
-/*  display: flex;*/
-/*}*/
-
-/*// Basic button styles*/
-/*button {*/
-/*  background: none;*/
-/*  border: 2px solid;*/
-/*  font: inherit;*/
-/*  line-height: 1;*/
-/*  margin: 0.5em;*/
-/*  padding: 1em 2em;*/
-/*}*/
-
-/*h1 { font-weight: 400; }*/
-
-/*code {*/
-/*  color: #e4cb58;*/
-/*  font: inherit;*/
-/*}*/
 
 .form-style-3{
 	max-width: 450px;
@@ -163,7 +106,7 @@
   margin:0px;
   white-space:nowrap;
   overflow:hidden;
-  animation:typing 7s steps(22,end) forwards,
+  animation:typing 3s steps(22,end) forwards,
             blink 1s infinite;
 }
 @keyframes typing {
@@ -318,6 +261,7 @@ img {
 
 .type_list {
   animation: rotate 7s infinite;
+  list-style: none;
 }
 
 /* button style (upload, submit) */

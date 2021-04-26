@@ -8,7 +8,7 @@
   <title>酒조상궁</title>
   <link rel="stylesheet" type="text/css" href="static/css/reset.css">
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
 
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script>
@@ -26,7 +26,7 @@
         int_speed = 35;
 
     var int = setInterval(function() {
-      if(run_count < count){
+      if(run_count < count+1){
         $display.text(speed * run_count);
         run_count++;
       } else if(parseInt($display.text()) < count) {
@@ -45,11 +45,6 @@
          makegraph();
          });
     </script>
-  <script>
-  $(function(){
-  console.log('success!')
-  });
-  </script>
 </head>
 <!--------------------------------------- HEAD END --------------------------------------->
 <!-------------------------------------- BODY START -------------------------------------->
@@ -62,11 +57,10 @@
         <h3 class="main_title">주조상궁</h3>
         <h3 class="sub_title">안주 궁합 점수 측정기</h3>
       </div>
-	  <div class="count">테스트버튼</div>
       <div class="intro">
         <h1>♥궁합 평가와 점수는? 두근두근♥</h1>
         <div class="type">  
-          <ul class="type_list">
+          <ul class="type_list" style="padding: 0 !important;">
               <li>소주와 회는 몇점일까요</li>
               <li>맥주와 회..이거 맞아?</li>
               <li>막걸리와 전은 몇점일까요?</li>
@@ -83,16 +77,16 @@
             <form action="http://localhost:5000/fileUpload" method="POST" enctype="multipart/form-data">
               <div class="filebox" style="display:contents">
                 <div style="float:left">
-                  <label for="ex_file">사진업로드</label>
+                  <label for="ex_file" style="display: inline !important;">사진업로드</label>
                   <input type="file" name="file" id="ex_file" />
                 </div>
                 <div style="float:right">
-                  <label for="ex_submit">학습시작</label>
+                  <label for="ex_submit" style="display: inline !important;"">학습시작</label>
                   <input type="submit" id="ex_submit" />
                 </div>
               </div>
             </form>
-          <br><br>
+          <br>
           <hr class="border_line" size="5px" color="black" noshade="">
           {% if score %}
           <div id="label-container">
@@ -105,30 +99,23 @@
            <!-------------------------------------- FILE UPLOAD -------------------------------------->
            <!-------------------------------------- RESULTs AREA-------------------------------------->
           <!--로딩바-->
-          <div id="loading" style="margin-left: 0px;">
-            <img src="/static/img/loading.gif">
+          <div id="loading" style="margin-left: 0px; text-align : center;">
+            <img src="/static/img/loading.gif" style="width: 3vw !important;">
             <p>변환중입니다..잠시기다려주세요.</p>
           </div>
+
             {% if result_img %}
             <img src="{{url_for('static', filename='result_img/'+result_img)}}" class="img-fluid z-depth-1-half" alt="">
             {% endif %}
-            <br>
-            <h3 class="text-center mt-3 text-success">{% if result_img %} * 이미지 이름 : {{ result_img }} {% endif %}</h3>
-            <br>
-            <h3 class="text-center mt-3 text-success">{% if return_msg %} * 처리결과 : {{ return_msg }} {% endif %}</h3>
-            <br>
-            <h3 class="text-center mt-3 text-success">{% if labels %} * Lable : {{ labels }} {% endif %}</h3>
-            <br>
-            <h3 class="text-center mt-3 text-success">{% if score %} * Score : {{ score }} {% endif %}</h3>
-            <br>
-            {% if score %}<div class="count">0</div>{% endif %}
-            <br>
-            <h3 class="text-center mt-3 text-success">{% if desc %} * desc : {{ desc }} {% endif %}</h3>
-            <div class="text-typing">
-                  <p>{% if desc %} * desc : {{ desc }} {% endif %}</p>
+
+            {% if score %}
+            <div class="count" style="display: table  !important; margin: auto !important;">0</div>
+            {% endif %}
+
+            <div class="text-typing" style="display: inline-block !important;">
+                  <p>{% if desc %} {{ desc }} {% endif %}</p>
             </div>
 
-            <br>
           <!-------------------------------------- RESULTs AREA-------------------------------------->
         </div>
       </main>
@@ -142,24 +129,20 @@
     return true;
     });
 </script>
-<script>
-  $(function(){
-  console.log('success2!')
-  });
-</script>
+
 <script>
     labelContainer = document.getElementById("label-container");
 
     function makegraph() {
 			var barWidth = Math.round({{anju_score}}.toFixed(2) * 100) + "%";
 			var label = "<div class='food-label d-flex align-items-center'>" + "{{anju}}" + "</div>"
-			var bar = "<div class='bar-container position-relative container'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round({{anju_score}}.toFixed(2) * 100) + "%</span></div></div>"
+			var bar = "<div class='bar-container position-relative container'  style='width: 55vw !important;'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth + "'><span class='d-block percent-text'>" + Math.round({{anju_score}}.toFixed(2) * 100) + "%</span></div></div>"
 			document.getElementById("anju").innerHTML = label + bar;
 			console.log("{{anju}}", {{anju_score}})
 
 			var barWidth2 = Math.round({{alcohol_score}}.toFixed(2) * 100) + "%";
 			var label2 = "<div class='food-label d-flex align-items-center'>" + "{{alcohol}}" + "</div>"
-			var bar2 = "<div class='bar-container position-relative container'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth2 + "'><span class='d-block percent-text'>" + Math.round({{alcohol_score}}.toFixed(2) * 100) + "%</span></div></div>"
+			var bar2 = "<div class='bar-container position-relative container' style='width: 55vw !important;'><div class='box'></div><div class='d-flex justify-content-center align-items-center bar' style='width: " + barWidth2 + "'><span class='d-block percent-text'>" + Math.round({{alcohol_score}}.toFixed(2) * 100) + "%</span></div></div>"
 			document.getElementById("alcohol").innerHTML = label2 + bar2;
 			console.log("{{alcohol}}", {{alcohol_score}})
         }
