@@ -11,7 +11,7 @@ def scoring(labels):
         for i in range(0, num):
             temp = labels[i].split('-')
             result_dict[temp[0]] = temp[1]
-        print(result_dict)  # labels에서 확률 오름차순 정렬이기 때문에, 자동으로 label별 가장 높은 값 하나만 가져옴
+        print(result_dict)  # labels에서 확률 오름차순 정렬이기때문에, 자동으로 label별 가장 높은 값 하나만 가져옴
 
         anzulist = ['bokkeum', 'bossam', 'canape', 'cheese', 'chicken', 'corncheese', 'dakbal', 'dakgalbi', 'drysnacks',
                     'egg', 'fried', 'fruit', 'grilledclams', 'grilledfish', 'grilledmeat', 'jeon', 'kkochi', 'muchim',
@@ -31,9 +31,9 @@ def scoring(labels):
             if sortlabels["alcohol"] == None and key_list[i] in alcohollist:
                 sortlabels["alcohol"] = key_list[i]
         anju = sortlabels["anju"]
-        anju_score = result_dict[anju]
+        anju_score = result_dict[anju] if anju != None else 0
         alcohol = sortlabels["alcohol"]
-        alcohol_score = result_dict[alcohol]
+        alcohol_score = result_dict[alcohol] if alcohol != None else 0
 
         infolist = pd.read_csv('combination.csv')
 
