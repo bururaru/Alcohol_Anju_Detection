@@ -1,3 +1,4 @@
+-f https://download.pytorch.org/whl/torch_stable.html
 # pip install -r requirements.txt
 # base ----------------------------------------
 matplotlib>=3.2.2
@@ -7,6 +8,8 @@ Pillow
 PyYAML>=5.3.1
 scipy>=1.4.1
 tqdm>=4.41.0
+torch==1.8.1+cpu
+torchvision==0.9.1+cpu
 # addtions ----------------------------------------
 flask
 requests
